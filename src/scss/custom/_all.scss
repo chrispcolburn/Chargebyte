@@ -1006,3 +1006,24 @@ a:hover{
 .product-section{
 	padding: 4% 0;
 }
+
+@media(max-width:580px){
+	.no-margin-left-xs {
+		margin-left: 0px
+	}
+	.no-padding-xs{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.banner-content{
+		text-align: left;
+	}
+}
+@media (min-width: 576px){
+.col-sm-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+}
+}
